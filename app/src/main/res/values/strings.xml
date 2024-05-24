@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PierwszAplikacjaAndroid</string>
+    <string name="current_steps">Kroki: %1$d</string>
+</resources>

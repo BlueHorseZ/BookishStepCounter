@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main">
+
+    <Button
+        android:id="@+id/BackToMain"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:background="@drawable/glass_effect"
+        android:fontFamily="@font/amarante"
+        android:text="Back"
+        android:onClick="onBackPressed"
+        android:textColor="@color/burgundy"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+
+
+    <TextView
+        android:layout_width="337dp"
+        android:layout_height="227dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/pink"
+        android:background="@drawable/glass_effect"
+        android:gravity="center"
+        android:text="Welcome to the App! It is so nice to have you here. This app is a peculair combination of
+stories from Our favoriet books and sport. You can find here some challenges with different diffficulty levels. Down below you can read about corrent challenges. I hope you enjoy!"
+        android:textColor="@color/burgundy"
+        android:textSize="20sp"
+        app:circularflow_radiusInDP="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/pink"
+        android:background="@drawable/glass_effect"
+        android:gravity="center"
+        android:text="Ley Line - 6th steps challenge.
+        Are you intrested in magic and Wallish history?
+        Walk with Gansey along the Ley line!"
+        android:textColor="@color/burgundy"
+        android:textSize="20sp"
+        app:circularflow_radiusInDP="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/pink"
+        android:background="@drawable/glass_effect"
+        android:gravity="center"
+        android:text="Parapet - 2thousand steps challenge.
+        Would you like to study at Basghiat? It is your chance! "
+        android:textColor="@color/burgundy"
+        android:textSize="20sp"
+        app:circularflow_radiusInDP="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/pink"
+        android:background="@drawable/glass_effect"
+        android:gravity="center"
+        android:text="Terrasen - 10th steps challenge.
+        Feel like a Fireheart Queen and walk to Terrasen to save the Kingdom!"
+        android:textColor="@color/burgundy"
+        android:textSize="20sp"
+        app:circularflow_radiusInDP="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
